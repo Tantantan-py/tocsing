@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "./Logo";
 import Link from "next/link";
 import { LinkedInIcon, GitHubIcon } from "./Icons.js";
+import { SunIcon } from "project files/Icons";
 
 const Header = () => {
   return (
@@ -20,20 +21,22 @@ const Header = () => {
         <Link href="/contact" className="mr-2">
           Contact
         </Link>
-        <button>T</button>
+        <button>
+          <SunIcon />
+        </button>
       </nav>
       <div>
         <a
           href="https://www.linkedin.com/in/lucian-tan/"
           className="inline-block w-6 h-6 mr-4"
         >
-          <LinkedInIcon />
+          <LinkedInIcon className="hover:scale-125 transition-all ease duration-200"/>
         </a>
         <a
           href="https://github.com/Tantantan-py/tocsing"
           className="inline-block w-6 h-6 mr-4"
         >
-          <GitHubIcon />
+          <GitHubIcon className="hover:scale-125 transition-all ease duration-200"/>
         </a>
       </div>
     </header>
