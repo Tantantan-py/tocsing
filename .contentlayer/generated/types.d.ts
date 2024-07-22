@@ -20,7 +20,7 @@ export type Blog = {
   isPublished: boolean
   author?: string | undefined
   tags?: string[] | undefined
-  image?: string | undefined
+  image?: ImageFieldData | undefined
   /** Markdown file body */
   body: Markdown
   url_path: string

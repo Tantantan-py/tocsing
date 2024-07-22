@@ -35,8 +35,7 @@ const Blog = defineDocumentType(() => ({
       of: { type: "string" },
     },
     image: {
-      type: "string",
-      require: true,
+      type: "image",
     },
     // For the Image needs to update the store method
   },

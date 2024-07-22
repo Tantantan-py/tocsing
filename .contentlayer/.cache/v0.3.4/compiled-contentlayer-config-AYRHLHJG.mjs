@@ -34,8 +34,7 @@ var Blog = defineDocumentType(() => ({
       of: { type: "string" }
     },
     image: {
-      type: "string",
-      require: true
+      type: "image"
     }
     // For the Image needs to update the store method
   },
@@ -54,4 +53,4 @@ var contentlayer_config_default = makeSource({
 export {
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-X55PP3WS.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-AYRHLHJG.mjs.map
