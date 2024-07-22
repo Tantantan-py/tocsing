@@ -1,8 +1,7 @@
 import React from "react";
 import Logo from "./Logo";
 import Link from "next/link";
-import { LinkedInIcon, GitHubIcon } from "./Icons.js";
-import { SunIcon } from "project files/Icons";
+import { LinkedInIcon, GitHubIcon, SunIcon } from "./Icons.js";
 
 const Header = () => {
   return (
