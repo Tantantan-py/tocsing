@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "./Logo";
 import Link from "next/link";
+import { LinkedInIcon, GitHubIcon } from "./Icons.js";
 
 const Header = () => {
   return (
@@ -22,8 +23,18 @@ const Header = () => {
         <button>T</button>
       </nav>
       <div>
-        <a href="https://www.linkedin.com/in/lucian-tan/">LinkedIn</a>
-        <a href="https://github.com/Tantantan-py/tocsing">GitHub</a>
+        <a
+          href="https://www.linkedin.com/in/lucian-tan/"
+          className="inline-block w-6 h-6 mr-4"
+        >
+          <LinkedInIcon />
+        </a>
+        <a
+          href="https://github.com/Tantantan-py/tocsing"
+          className="inline-block w-6 h-6 mr-4"
+        >
+          <GitHubIcon />
+        </a>
       </div>
     </header>
   );
