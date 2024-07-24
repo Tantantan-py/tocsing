@@ -22,7 +22,7 @@ const BlogLayOutOne = ({ blog }) => {
           name={blog.tags[0]}
           className="px-6 text-sm py-2 !border"
         />
-        <Link href={"/"} className="mt-6">
+        <Link href={blog.url_path} className="mt-6">
           <h2 className="font-bold capitalize text-2xl text-white">
             <span className="bg-gradient-to-r from-white to-grey bg-[length:0px_6px] hover:bg-[length:100%_6px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500">
               {blog.title}
