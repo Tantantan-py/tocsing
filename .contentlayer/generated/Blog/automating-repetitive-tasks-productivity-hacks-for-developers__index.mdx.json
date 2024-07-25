@@ -2,10 +2,10 @@
   "title": "Automating Repetitive Tasks: Productivity Hacks for Developers",
   "description": "How to deploy your Next.js apps on Vercel.",
   "isPublished": true,
+  "publishedAt": "2023-01-01",
+  "updatedAt": "2023-01-01",
   "author": "codebucks",
-  "tags": [
-    "productivity"
-  ],
+  "tags": ["productivity"],
   "image": {
     "filePath": "../public/blogs/emile-perron-xrVDYZRGdw4-unsplash.jpg",
     "relativeFilePath": "../../public/blogs/emile-perron-xrVDYZRGdw4-unsplash.jpg",

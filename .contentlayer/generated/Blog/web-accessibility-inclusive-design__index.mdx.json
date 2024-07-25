@@ -2,11 +2,10 @@
   "title": "Web Accessibility: Inclusive Design for All Users",
   "description": "Embrace the principles of web accessibility and ensure that your web applications reach all users, regardless of their abilities.",
   "isPublished": true,
+  "publishedAt": "2022-11-12",
+  "updatedAt": "2022-11-12",
   "author": "codebucks",
-  "tags": [
-    "code quality",
-    "web development"
-  ],
+  "tags": ["code quality", "web development"],
   "image": {
     "filePath": "../public/blogs/christina-wocintechchat-com-OtHEYbQXLFU-unsplash.jpg",
     "relativeFilePath": "../../public/blogs/christina-wocintechchat-com-OtHEYbQXLFU-unsplash.jpg",
