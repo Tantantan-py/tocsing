@@ -2,10 +2,11 @@
   "title": "Mastering CSS Grid Layout: A Comprehensive Guide",
   "description": "Dive into the world of CSS Grid Layout with this comprehensive guide. Learn how to create responsive and dynamic layouts using CSS Grid, and explore various examples and best practices for building modern web interfaces.",
   "isPublished": true,
-  "publishedAt": "2022-11-12",
-  "updatedAt": "2022-11-12",
   "author": "codebucks",
-  "tags": ["css", "web development"],
+  "tags": [
+    "css",
+    "web development"
+  ],
   "image": {
     "filePath": "../public/blogs/kelly-sikkema--1_RZL8BGBM-unsplash.jpg",
     "relativeFilePath": "../../public/blogs/kelly-sikkema--1_RZL8BGBM-unsplash.jpg",

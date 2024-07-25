@@ -2,10 +2,11 @@
   "title": "10 Essential Web Development Tools for Productivity",
   "description": "Discover 10 must-have web development tools that can significantly boost your productivity, streamline your workflow, and enhance code quality.",
   "isPublished": true,
-  "publishedAt": "2022-11-12",
-  "updatedAt": "2022-11-12",
   "author": "codebucks",
-  "tags": ["productivity", "web development"],
+  "tags": [
+    "productivity",
+    "web development"
+  ],
   "image": {
     "filePath": "../public/blogs/lauren-mancke-aOC7TSLb1o8-unsplash.jpg",
     "relativeFilePath": "../../public/blogs/lauren-mancke-aOC7TSLb1o8-unsplash.jpg",

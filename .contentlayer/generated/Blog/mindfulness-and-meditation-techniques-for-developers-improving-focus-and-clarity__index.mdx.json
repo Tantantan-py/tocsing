@@ -2,10 +2,10 @@
   "title": "Mindfulness and Meditation Techniques for Developers: Improving Focus and Clarity",
   "description": "Integrating mindfulness practices helps developers cultivate present-moment awareness, fostering focus, problem-solving, and work-life balance.",
   "isPublished": true,
-  "publishedAt": "2023-01-03",
-  "updatedAt": "2023-01-03",
   "author": "codebucks",
-  "tags": ["productivity"],
+  "tags": [
+    "productivity"
+  ],
   "image": {
     "filePath": "../public/blogs/c-d-x-PDX_a_82obo-unsplash.jpg",
     "relativeFilePath": "../../public/blogs/c-d-x-PDX_a_82obo-unsplash.jpg",
