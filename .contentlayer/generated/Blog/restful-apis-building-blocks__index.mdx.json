@@ -2,11 +2,10 @@
   "title": "RESTful APIs: Building Blocks of Modern Web Applications",
   "description": "Uncover the fundamental concepts of RESTful APIs and their crucial role in modern web application development.",
   "isPublished": true,
+  "publishedAt": "2022-11-12",
+  "updatedAt": "2022-11-12",
   "author": "codebucks",
-  "tags": [
-    "code quality",
-    "web development"
-  ],
+  "tags": ["code quality", "web development"],
   "image": {
     "filePath": "../public/blogs/luca-bravo-XJXWbfSo2f0-unsplash.jpg",
     "relativeFilePath": "../../public/blogs/luca-bravo-XJXWbfSo2f0-unsplash.jpg",
