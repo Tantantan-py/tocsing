@@ -5,8 +5,6 @@ import Link from "next/link";
 import Tag from "../Elements/Tag";
 
 const HomeCoverSection = ({ blogs }) => {
-  console.log(blogs);
-
   const sortedBlogs = sortBlogs(blogs);
   const blog = sortedBlogs[0];
 
