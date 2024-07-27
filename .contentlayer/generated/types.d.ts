@@ -13,17 +13,19 @@ export type Blog = {
   _id: string
   _raw: Local.RawDocumentData
   type: 'Blog'
-  title?: string | undefined
-  publishAt?: IsoDateTimeString | undefined
-  updateAt?: IsoDateTimeString | undefined
-  description?: string | undefined
-  isPublished: boolean
-  author?: string | undefined
-  tags?: string[] | undefined
+  title: string
+  publishedAt: IsoDateTimeString
+  updatedAt: IsoDateTimeString
+  description: string
   image?: ImageFieldData | undefined
-  /** Markdown file body */
-  body: Markdown
+  isPublished: boolean
+  author: string
+  tags?: string[] | undefined
+  /** MDX file body */
+  body: MDX
   url_path: string
+  readingTime: json
+  toc: json
 }  
 
 /** Nested types */
