@@ -2,6 +2,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { GitHubIcon, LinkedInIcon } from "../Header/Icons";
+import Link from "next/link";
 
 const Footer = () => {
   const {
@@ -29,7 +30,7 @@ const Footer = () => {
           type="email"
           placeholder="Enter Your Email and Join Us!"
           {...register}
-          className="w-full bg-transparent text-dark focus:border-dark focus:ring-0 border-0 border-b mr-2 pb-1"
+          className="w-full bg-transparent pl-0 text-dark focus:border-dark focus:ring-0 border-0 border-b mr-2 pb-1"
         />
 
         <input
@@ -50,6 +51,24 @@ const Footer = () => {
         >
           <GitHubIcon className="hover:scale-125 transition-all ease duration-200" />
         </a>
+      </div>
+      <div className="w-full mt-24 relative font-medium border-t border-solid border-light py-6 px-8 flex flex-row items-center justify-between">
+        <span className="text-center">
+          &copy;2024 ToCSing. All rights reserved.
+        </span>
+        <Link href="/sitemap.xml" className="text-center underline">
+          sitemap.xml
+        </Link>
+        <div className="text-center">
+          Made with &hearts; by
+          <a
+            href="https://www.linkedin.com/in/lucian-tan/"
+            className="underline"
+          >
+            {" "}
+            Chef Tan
+          </a>
+        </div>
       </div>
     </footer>
   );
