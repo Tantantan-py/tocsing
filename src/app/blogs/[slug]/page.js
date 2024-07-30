@@ -1,4 +1,5 @@
 import BlogDetails from "@/components/Blogs/BlogDetails";
+import { RenderMDX } from "@/components/Blogs/RenderMDX";
 import Tag from "@/components/Elements/Tag";
 import { allBlogs } from "contentlayer/generated";
 import { slug } from "github-slugger";
@@ -31,7 +32,12 @@ export default function BlogPage({ params }) {
           className="aspect-square w-full h-full object-cover object-center"
         />
       </div>
-      <BlogDetails blog={blog} slug={slug} />
+      <BlogDetails blog={blog} slug={params.slug} />
+
+      <div className="grid grid-cols-12 gap-16 mt-8 px-10">
+        <div className="col-span-4">Toc</div>
+        <RenderMDX blog={blog} />
+      </div>
     </article>
   );
 }
