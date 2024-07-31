@@ -80,3 +80,17 @@ code[data-line-numbers-max-digits="3"] > [data-line]::before {
   font-size: 1rem;
   color: #747474;
 }
+
+/* Tailwind CSS example */
+@keyframes highlight {
+  0% {
+    background-color: rgba(255, 112, 160, 0.329);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.highlighted {
+  animation: highlight 1s ease;
+}

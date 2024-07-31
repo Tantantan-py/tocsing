@@ -1,3 +1,5 @@
+"use client";
+import { useState } from "react";
 import BlogDetails from "@/components/Blogs/BlogDetails";
 import { RenderMDX } from "@/components/Blogs/RenderMDX";
 import Tag from "@/components/Elements/Tag";
@@ -6,7 +8,20 @@ import { slug } from "github-slugger";
 import Image from "next/image";
 
 export default function BlogPage({ params }) {
+  const [highlightedId, setHighlightedId] = useState(null);
   const blog = allBlogs.find((blog) => blog._raw.flattenedPath === params.slug);
+
+  const handleClick = (id) => {
+    setHighlightedId(id);
+    setTimeout(() => {
+      setHighlightedId(null);
+    }, 1000); // Highlight effect duration
+
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
 
   return (
     <article>
@@ -51,9 +66,11 @@ export default function BlogPage({ params }) {
                     <a
                       href={`#${heading.slug}`}
                       data-level={heading.level}
-                      className="data-[level=two]:pl-0 data-[level=two]:pt-2 data-[level=two]:border-t border-solid border-dark/40
+                      className={`data-[level=two]:pl-0 data-[level=two]:pt-2 data-[level=two]:border-t border-solid border-dark/40
                       data-[level=three]:pl-6
-                      flex items-center justify-start"
+                      flex items-center justify-start
+                      ${highlightedId === heading.slug ? "highlighted" : ""}`}
+                      onClick={() => handleClick(heading.slug)}
                     >
                       {heading.level === "three" ? (
                         <span className="flex w-1 h-1 rounded-full bg-dark mr-2">
