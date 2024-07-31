@@ -56,7 +56,7 @@ export default function BlogPage({ params }) {
                       flex items-center justify-start"
                     >
                       {heading.level === "three" ? (
-                        <span className="flex w-1 h-1 rounded-full">
+                        <span className="flex w-1 h-1 rounded-full bg-dark mr-2">
                           &nbsp;
                         </span>
                       ) : null}
