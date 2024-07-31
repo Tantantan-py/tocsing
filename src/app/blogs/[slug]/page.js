@@ -7,6 +7,10 @@ import { allBlogs } from "contentlayer/generated";
 import { slug } from "github-slugger";
 import Image from "next/image";
 
+export async function generateStaticParams() {
+  return (blog = allBlogs.map((blog) => ({ slug: "all" })));
+}
+
 export default function BlogPage({ params }) {
   const [highlightedId, setHighlightedId] = useState(null);
   const blog = allBlogs.find((blog) => blog._raw.flattenedPath === params.slug);
