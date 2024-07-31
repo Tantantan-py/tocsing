@@ -30,7 +30,7 @@ export default function BlogPage({ params }) {
           <Tag
             classname="px-6 text-sm py-2"
             name={blog.tags[0]}
-            link={`/categories/${blog.tags[0]}`}
+            link={`/categories/${slug(blog.tags[0])}`}
           />
           <h1 className="inline-block mt-6 font-semibold capitalize text-light text-5xl leading-normal">
             {blog.title}

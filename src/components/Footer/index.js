@@ -18,7 +18,7 @@ const Footer = () => {
       <h3 className="mt-16 font-medium text-center capitalize text-4xl px-4">
         Interesting Stories | Updates | Guides
       </h3>
-      <p className="mt-5 px-4 text-cent w-3/4 font-light text-base">
+      <p className="mt-5 px-4 text-center w-3/4 font-light text-base">
         Subscribe to learn about new technology and updates. Join over 5000+
         members community to stay up to date with latest news.
       </p>
