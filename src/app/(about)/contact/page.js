@@ -11,10 +11,12 @@ export default function Contact() {
         <h2 className="font-bold capitalize text-4xl">
           Let's have a coffee chat! It's for free!
         </h2>
+        <br />
         <h3 className="font-semibold text-2xl">
-          If you want to consult with our team, please submit this form and
-          we'll reach out back to you!
+          If you want to consult with us, please submit this form and we'll
+          reach out back to you!
         </h3>
+        <br />
         <ContactForm />
       </div>
     </section>
