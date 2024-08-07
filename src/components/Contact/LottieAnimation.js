@@ -1,8 +1,16 @@
+"use client";
 import React from "react";
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import { DotLottiePlayer } from "@dotlottie/react-player";
+import "@dotlottie/react-player/dist/index.css";
 
 const LottieAnimation = () => {
-  return <DotLottieReact src="/animation_llqd7ey4.lottie" loop autoplay />;
+  return (
+    <DotLottiePlayer
+      src="/animation_llqd7ey4.lottie"
+      autoplay
+      loop
+    ></DotLottiePlayer>
+  );
 };
 
 export default LottieAnimation;
