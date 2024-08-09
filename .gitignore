@@ -16,3 +16,6 @@ logs
 .idea/
 
 .next/
+
+# Don't upload my API!
+.env
